@@ -21,7 +21,7 @@ defmodule KhepriTest.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:khepri, git: "https://github.com/rabbitmq/khepri.git", branch: "main"}
+      {:khepri, "~> 0.1", manager: :rebar3}
     ]
   end
 end
